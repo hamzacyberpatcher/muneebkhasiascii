@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <unistd.h>
 
 void main(void)
 {
@@ -31,7 +31,7 @@ Loading_Bar(void)
 	while(k<=25)
 	{
 		printf("%c",219);
-		sleep(0.9);
+		sleep(1);
 		k++;
 	}
 }
